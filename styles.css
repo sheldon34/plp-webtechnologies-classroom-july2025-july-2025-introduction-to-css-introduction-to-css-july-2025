@@ -1,0 +1,17 @@
+/* Utility classes for spacing */
+
+
+/* Card styles */
+.card-grid { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+}
+.card-img { max-width: 100%; border-radius: 8px; }
+.card-title { font-size: 1.1rem; font-weight: 600; color: #007bff; }
+.card-desc { font-size: 0.95rem; color: #495057; }
